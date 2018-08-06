@@ -1,0 +1,2 @@
+use TS;
+LOAD DATA LOCAL INFILE '/home/cloudera/Downloads/a.txt' REPLACE INTO TABLE project FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';
